@@ -10,6 +10,7 @@ Subscription Website Builder (Subscribie) makes is easy for you to design and
 build a subscription based website. We've built all the complicated stuff for
 you:
 
+
 * Take recurring payments using direct debit
 * Instant payments for up-front costs
 * A simple workflow
@@ -23,9 +24,7 @@ User's Guide
 .. toctree::
    :maxdepth: 2
 
-   foo/about
    jamla/jamla
 
-* :ref:`genindex`
 * :ref:`search`
 
