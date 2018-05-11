@@ -25,6 +25,7 @@ User's Guide
    :maxdepth: 2
 
    jamla/jamla
+   templates/templates
 
 * :ref:`search`
 
