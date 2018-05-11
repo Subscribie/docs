@@ -29,3 +29,5 @@ file is described below:
    :maxdepth: 2
    
    item
+   payment-providers
+   ../templates/templates
