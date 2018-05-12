@@ -28,6 +28,7 @@ file is described below:
 .. toctree::
    :maxdepth: 2
    
+   company
    item
    payment-providers
    ../templates/templates

@@ -1,6 +1,6 @@
 .. _jamla-item:
 
-Jamla Item
+Item
 =============
 
 A Jamla item 
