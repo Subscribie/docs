@@ -9,6 +9,11 @@ Jamla latest
 Latest jamla.yaml::
 
 	version: 1
+	company:                                                                         
+	  name: Karma Computing                                                          
+	  logo: logo.svg
+	modules:
+	   - module_name
 	payment_providers:
 		paypal:
 			 - sepa_direct_supported: No
@@ -29,7 +34,6 @@ Latest jamla.yaml::
 			 - variable_payments_supported: Yes
 			 - access_token: ''
 			 - environment: ''
-
 	items:
 		- sku: adsl
 		  title: ADSL
@@ -79,4 +83,11 @@ Latest jamla.yaml::
 					type: image/png
 				  - src: images/fibre192.png
 					size: 192x192
-					type: image/png 
+					type: image/png
+	pages:                                                                           
+	- privacy:                                                                       
+		path: privacy                                                                
+		template_file: privacy.html                                                  
+	- demo:                                                                          
+		path: demo                                                                   
+		template_file: demo.html 
