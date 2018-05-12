@@ -6,17 +6,24 @@
 Subscription Website Builder's Documentation
 ========================================================
 
+                                                                                                                                                                 
+.. sidebar:: What you get
+
+	* Take recurring payments using direct debit
+	* Instant payments for up-front costs
+	* A simple workflow
+                                                                                 
+
 Subscription Website Builder (Subscribie) makes is easy for you to design and 
 build a subscription based website. We've built all the complicated stuff for
-you:
+you.
 
+A simple workflow:
 
-* Take recurring payments using direct debit
-* Instant payments for up-front costs
-* A simple workflow
-   1. Customer chooses a package
-   2. Customer enters contact info
-   3. Take one-off/monthly or both payment
+1. Customer chooses a package
+2. Customer enters contact info
+3. Take one-off/monthly or both payment
+
 
 User's Guide
 ==================
