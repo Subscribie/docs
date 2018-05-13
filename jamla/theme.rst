@@ -19,7 +19,7 @@ the default theme entry::
   `string`, `mandatory`, `*default*: *jesmond*`
 
 
-.. note:: In rare cases you may want to set your theme to an absolute path 
-          to ovveride the default location of theme.
+.. note:: In rare cases you set the theme to an absolute path, *be sure to
+          also update the STATIC_FOLDER path in your .env file.*
 
 .. seealso:: :ref:`themes`

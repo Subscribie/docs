@@ -38,5 +38,6 @@ create your own theme.
 Changing the theme
 ***********************
 
-To change to a different theme, update the name of the 
-:ref:`theme<jamla-theme>` in your Jamla file.  
+To change to a different theme, update the name of the :ref:`jamla-theme` in your Jamla file.  
+
+
