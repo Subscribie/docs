@@ -20,5 +20,12 @@ file.
 Getting Started
 ---------------
 
+By default you have the `jesmond` template installed.
+
 Templates are stored in your `templates` directory.
 
+Changing the template
+***********************
+
+To change to a different template, update the name of the 
+:ref:`template<jamla-template>` in your Jamla file.  
