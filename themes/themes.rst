@@ -29,6 +29,18 @@ By default you have the `jesmond` theme installed, but of course you can
 create your own by editing your jamla :ref:`jamla-theme` setting to point to
 another theme.
 
+Static Assets
+**************
+Static assets must be placed in `subscribie/static` above the template folder:
+
+::
+
+	subscribie
+	├── static
+	│   └── logo.svg
+	└── templates
+		└── jesmond
+
 Editing the theme
 ***********************
 It is not recommended to edit the theme directly because your changes would
