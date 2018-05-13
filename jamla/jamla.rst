@@ -8,7 +8,7 @@ Just a Markup Language Application
 ----------------------------------------
 
 Jamla is a jaml file which describes all information needed to build your 
-subscription based website.
+subscription based website. 
 
 :ref:`jamla-latest` shows the latest definition of a valid Jamla file.
 

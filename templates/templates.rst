@@ -3,26 +3,37 @@
 Templates
 ==========
 
-Creating templates is easy. Every template gets passed a `Jamla` object, 
-which gives you access to all information in your :ref:`jamla<jamla-latest>` 
-file.
+Subscribie comes with an excellent default template called `Jesmond`_. Every 
+template gets passed a `Jamla` object, which gives you access to all information 
+in your :ref:`jamla<jamla-latest>` file.
 
 .. warning::
   Never output sensitive information from your Jamla file to your
   visitors. 
 
-.. note::
-   Ability to switch between templates is still being worked on, currently the 
-   builder assumes you only have *one* template, and simply loads it from the
-   `/template` base directory of your source. Issue:
-   https://gitlab.com/karmacrew/hedgehog/issues/65
 ---------------
 Getting Started
 ---------------
 
-By default you have the `jesmond` template installed.
+Jesmond
+**********
+**"jesmond"** is the name of the default template for subscription website
+builder. Jesmond is a sane default to get you up and selling quickly. Note the 
+emphasis on selling. Don't waste time reinventing patterns. This theme is fast a
+fast progessive web app
+`(PWA) <https://developer.mozilla.org/en-US/Apps/Progressive>`_ which means you 
+get all the benefits of fast modern experiences usually only found on larger
+sites
 
-Templates are stored in your `templates` directory.
+By default you have the `jesmond` template installed, but of course you can 
+create your own by editing your jamla :ref:`jamla-template` setting to point to
+another template.
+
+Editing the template
+***********************
+It is not recommended to edit the template directly because your changes would
+be overwitten when you update to the latest Jesmond template. Instead you would 
+create your own template.
 
 Changing the template
 ***********************
