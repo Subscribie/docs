@@ -1,6 +1,6 @@
 .. _jamla-theme:
 
-Template
+Theme
 ===========
 
 A jamla theme entry
@@ -15,7 +15,7 @@ the default theme entry::
 
 **name**
   The name of your theme. Subscribie looks for the theme in 
-  subscribie/themes/<name>. Template names must always be lower case.
+  subscribie/themes/<name>. Theme names must always be lower case.
   `string`, `mandatory`, `*default*: *jesmond*`
 
 
