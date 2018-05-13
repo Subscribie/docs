@@ -32,7 +32,7 @@ User's Guide
    :maxdepth: 2
 
    jamla/jamla
-   templates/templates
+   themes/themes
 
 * :ref:`search`
 

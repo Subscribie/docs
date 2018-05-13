@@ -1,0 +1,25 @@
+.. _jamla-theme:
+
+Template
+===========
+
+A jamla theme entry
+   Is simply the name of the theme you wish to use.
+
+
+Below is an exerpt from the :ref:`jamla-latest` which shows
+the default theme entry:: 
+
+	theme:    
+		name: jesmond 
+
+**name**
+  The name of your theme. Subscribie looks for the theme in 
+  subscribie/themes/<name>. Template names must always be lower case.
+  `string`, `mandatory`, `*default*: *jesmond*`
+
+
+.. note:: In rare cases you may want to set your theme to an absolute path 
+          to ovveride the default location of theme.
+
+.. seealso:: :ref:`themes`

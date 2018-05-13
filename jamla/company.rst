@@ -17,5 +17,5 @@ A Jamla Company
 
 **logo**                                                                          
   Filename of the company logo. The path is assumed to be the *root*
-  of the assets directory. If none is provided, templates may fallback
+  of the assets directory. If none is provided, themes may fallback
   to the company name. `string`, `optional`

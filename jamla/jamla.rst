@@ -31,4 +31,4 @@ file is described below:
    company
    item
    payment-providers
-   template
+   theme 
