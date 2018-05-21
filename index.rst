@@ -22,7 +22,7 @@ A simple workflow:
 
 1. Customer chooses a package
 2. Customer enters contact info
-3. Take one-off/monthly or both payment
+3. Take one-off/monthly payments (or both)
 
 .. code-block:: shell
 
