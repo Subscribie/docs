@@ -24,6 +24,20 @@ A simple workflow:
 2. Customer enters contact info
 3. Take one-off/monthly or both payment
 
+:: 
+  git clone https://github.com/KarmaComputing/subscribie.git
+  cd subscribie/hedgehog
+  cp jamla.yaml.example jamla.yaml
+  cp .env.example .env
+
+Set your paths:::
+ nano .env
+ DB_FULL_PATH="./data.db"                                                         
+ JAMLA_PATH="./jamla.yaml"                                                        
+ STATIC_FOLDER="./static/"
+
+Run Subscribie::: 
+ ./run
 
 User's Guide
 ==================
