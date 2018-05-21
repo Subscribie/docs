@@ -55,6 +55,7 @@ User's Guide
    :maxdepth: 2
 
    jamla/jamla
+   subscribie/subscribie
    themes/themes
 
 * :ref:`search`
