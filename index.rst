@@ -24,29 +24,30 @@ A simple workflow:
 2. Customer enters contact info
 3. Take one-off/monthly payments (or both)
 
+--------------
+Configure Subscribie:
+--------------
+
 .. code-block:: shell
 
   git clone git@github.com:KarmaComputing/subscribie.git
   cd subscribie/hedgehog
   cp jamla.yaml.example jamla.yaml
   cp .env.example .env
+  python createdb.py # Initalize database
+  for file in migrations/*; do ./$file -up ; done # run migrations
 
-Set your paths:
-
-.. code-block:: shell
-
-  nano .env
-  DB_FULL_PATH="./data.db"                                                         
-  JAMLA_PATH="./jamla.yaml"                                                        
-  STATIC_FOLDER="./static/"
-
+------------------
 Run Subscribie:
+------------------
 
 .. code-block:: shell
 
   ./run
 
 Visit your development site: http://127.0.0.1:5000/
+
+Read more about :ref:`subscribie` for configuration.
 
 User's Guide
 ==================
