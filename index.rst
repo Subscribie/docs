@@ -26,7 +26,7 @@ A simple workflow:
 
 .. code-block:: shell
 
-  git clone https://github.com/KarmaComputing/subscribie.git
+  git clone git@github.com:KarmaComputing/subscribie.git
   cd subscribie/hedgehog
   cp jamla.yaml.example jamla.yaml
   cp .env.example .env
