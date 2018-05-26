@@ -35,7 +35,7 @@ Latest jamla.yaml::
              - instant_payment_supported: Yes
              - variable_payments_supported: Yes
              - access_token: ''
-             - environment: ''
+             - environment: 'sandbox'
     items:
         - sku: adsl
           title: ADSL
