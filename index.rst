@@ -30,7 +30,7 @@ Configure Subscribie:
 
 .. code-block:: shell
 
-  git clone git@github.com:KarmaComputing/subscribie.git
+  git submodule add git@github.com:KarmaComputing/subscribie.git
   cd subscribie/hedgehog
   cp jamla.yaml.example jamla.yaml
   cp .env.example .env
