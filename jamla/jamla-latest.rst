@@ -14,6 +14,7 @@ Latest jamla.yaml::
       logo: logo.svg
     theme:
       name: jesmond
+      static_folder: ./static/
     modules:
       - module_name
     payment_providers:
