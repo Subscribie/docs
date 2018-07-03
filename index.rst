@@ -31,9 +31,9 @@ Configure Subscribie:
 .. code-block:: shell
 
   git submodule add git@github.com:KarmaComputing/subscribie.git
-  cd subscribie/hedgehog
-  cp jamla.yaml.example jamla.yaml
-  cp .env.example .env
+  cp subscribie/hedgehog/jamla.yaml.example jamla.yaml
+  mv subscribie/hedgehog/.env.example subscribie/hedgehog/.env
+  #Set your jamla.yaml location by editing the .env file
   python createdb.py # Initalize database
   for file in migrations/*; do ./$file -up ; done # run migrations
 
