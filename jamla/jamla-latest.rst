@@ -19,24 +19,24 @@ Latest jamla.yaml::
       - module_name
     payment_providers:
         paypal:
-             - sepa_direct_supported: No
-             - subscription_supported: Yes
-             - instant_payment_supported: Yes
-             - variable_payments_supported: No
+             sepa_direct_supported: No
+             subscription_supported: Yes
+             instant_payment_supported: Yes
+             variable_payments_supported: No
         stripe: 
-             - sepa_direct_supported: No
-             - subscription_supported: Yes
-             - instant_payment_supported: Yes
-             - variable_payments_supported: No
-             - publishable_key: ''
-             - secret_key: ''
+             sepa_direct_supported: No
+             subscription_supported: Yes
+             instant_payment_supported: Yes
+             variable_payments_supported: No
+             publishable_key: ''
+             secret_key: ''
         gocardless:
-             - sepa_direct_supported: No
-             - subscription_supported: Yes
-             - instant_payment_supported: Yes
-             - variable_payments_supported: Yes
-             - access_token: ''
-             - environment: 'sandbox'
+             sepa_direct_supported: No
+             subscription_supported: Yes
+             instant_payment_supported: Yes
+             variable_payments_supported: Yes
+             access_token: ''
+             environment: 'sandbox'
     items:
         - sku: adsl
           title: ADSL
