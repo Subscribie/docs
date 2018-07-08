@@ -33,16 +33,9 @@ To add subscribie to a new project it's a good idea to add it as a git
 
 .. code-block:: shell
 
-  wget https://raw.githubusercontent.com/KarmaComputing/subscribie/master/subscribie/subscribie-install.sh
-  bash subscribie-install.sh
-
-------------------
-Run Subscribie:
-------------------
-
-.. code-block:: shell
-
-  ./run.sh
+  pip install subscribie
+  subscribie init
+  subscribie run
 
 -------------------
 Basic Commands:
