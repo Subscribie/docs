@@ -32,7 +32,8 @@ To add subscribie to a new project it's a good idea to add it as a git
 `submodule <https://git-scm.com/book/en/v2/Git-Tools-Submodules>`_
 
 .. code-block:: shell
-
+  
+  sudo pip install --upgrade pip #you might need sudo
   pip install subscribie
   subscribie init
   subscribie run
