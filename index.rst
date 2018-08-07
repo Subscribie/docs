@@ -56,7 +56,7 @@ Read more about :ref:`subscribie` for configuration.
 Developer's Guide
 ==================
 
-    .. code-block:: shell
+.. code-block:: shell
 
     git clone git@github.com:Subscribie/subscribie.git
     cd subscribie/
