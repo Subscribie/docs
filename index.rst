@@ -53,6 +53,20 @@ Visit your development site: http://127.0.0.1:5000/
 
 Read more about :ref:`subscribie` for configuration.
 
+Developer's Guide
+==================
+
+    .. code-block:: shell
+
+    git clone git@github.com:Subscribie/subscribie.git
+    cd subscribie/
+    virtualenv venv
+    . venv/bin/activate
+    export FLASK_APP=subscribie
+    export FLASK_ENV=development
+    subscribie run
+   
+
 User's Guide
 ==================
 
