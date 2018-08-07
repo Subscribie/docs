@@ -53,7 +53,7 @@ Visit your development site: http://127.0.0.1:5000/
 
 Read more about :ref:`subscribie` for configuration.
 
-Developer's Guide
+Developer's Contributors Guide
 ==================
 
 .. code-block:: shell
@@ -62,6 +62,7 @@ Developer's Guide
     cd subscribie/
     virtualenv venv
     . venv/bin/activate
+    pip install -e . # installs subscribie for local development
     export FLASK_APP=subscribie
     export FLASK_ENV=development
     subscribie run
