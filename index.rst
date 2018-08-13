@@ -33,8 +33,8 @@ To add subscribie to a new project it's a good idea to add it as a git
 
 .. code-block:: shell
   
-  sudo pip install --upgrade pip #you might need sudo
-  pip install subscribiecli
+  sudo pip install --upgrade pip
+  sudo pip install subscribiecli # we need sudo because registering command
   git clone git@github.com:Subscribie/subscribie.git
   cd subscribie
   subscribie init
