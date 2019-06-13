@@ -71,6 +71,13 @@ Developer's Contributors Guide
     export FLASK_APP=subscribie
     export FLASK_ENV=development
     subscribie run
+
+To uninstall:
+
+.. code-block:: shell
+
+  # Uninstall 
+  pip3.6 uninstall subscribiecli
    
 
 User's Guide
