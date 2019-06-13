@@ -53,7 +53,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'Subscription Website Builder'
-copyright = '2018, Christopher Simpson, Connor Loughlin, Matthew McGarry @ Karma Computing Ltd'
+copyright = '2019, Christopher Simpson, Connor Loughlin, Matthew McGarry, Svyat, Lauren'
 author = 'Christopher Simpson, Connor Loughlin, Matthew McGarry @ Karma Computing Ltd'
 
 # The version info for the project you're documenting, acts as replacement for
