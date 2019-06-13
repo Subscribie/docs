@@ -33,14 +33,16 @@ To add subscribie to a new project it's a good idea to add it as a git
 
 .. code-block:: shell
   
-  sudo pip install --upgrade pip
-  sudo pip install subscribiecli # we need sudo because registering command
+  pip3.6 install --user subscribiecli
   git clone git@github.com:Subscribie/subscribie.git
   cd subscribie
+  pip3.6 install --user -r requirements.txt
   subscribie init
   subscribie migrate
+  subscribie setconfig --TEMPLATE_BASE_DIR=<path/to/themes/dir/>
+  # example subscribie setconfig --TEMPLATE_BASE_DIR=/home/fred/Downloads/subscribie/themes/
   subscribie run
-
+  # visit http://127.0.0.1:5000
 -------------------
 Basic Commands:
 -------------------
