@@ -25,11 +25,20 @@ A simple workflow:
 3. Take one-off/monthly payments (or both)
 
 --------------
-Quick Start:
+Quickstart: Run locally
 --------------
 
-To add subscribie to a new project it's a good idea to add it as a git 
-`submodule <https://git-scm.com/book/en/v2/Git-Tools-Submodules>`_
+Requirements:
+
+- Python 3 or greater (Do :code:`python --version` to find out your version)
+
+  - `Install python <https://www.python.org/downloads/>`_.
+
+- Pip (python package installer) 
+
+  - `Install Pip <https://pip.pypa.io/en/stable/installing/#installation>`_.
+
+Now run subscribie:
 
 .. code-block:: shell
   
@@ -43,36 +52,33 @@ To add subscribie to a new project it's a good idea to add it as a git
   # example subscribie setconfig --TEMPLATE_BASE_DIR=/home/fred/Downloads/subscribie/themes/
   subscribie run
   # visit http://127.0.0.1:5000
--------------------
-Basic Commands:
--------------------
-
-.. todo::
-    .. code-block:: shell
-
-     subscribie update
-     subscribie subscibers # list subscribers
-     subscribie new theme <theme-name> # create new theme
 
 Visit your development site: http://127.0.0.1:5000/
 
 Read more about :ref:`subscribie` for configuration.
 
-Developer's Contributors Guide
-==================
+-------------------
+Basic Commands:
+-------------------
 
 .. code-block:: shell
 
-    git clone git@github.com:Subscribie/subscribie.git
-    cd subscribie/
-    virtualenv venv
-    . venv/bin/activate
-    pip install -e . # installs subscribie for local development
-    export FLASK_APP=subscribie
-    export FLASK_ENV=development
-    subscribie run
+  Usage: subscribie [OPTIONS] COMMAND [ARGS]...
 
+  Options:
+    --help  Show this message and exit.
+
+  Commands:
+    init       Initalise a new subscribie project
+    initdb     Initalise the database
+    migrate    Run latest migrations
+    newtheme   Create new theme
+    run        Run subscribie
+    setconfig  Updates the config.py which is stored in instance/config.py...
+
+-------------
 To uninstall:
+-------------
 
 .. code-block:: shell
 
