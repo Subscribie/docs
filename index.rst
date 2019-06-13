@@ -1,3 +1,4 @@
+
 .. Subscription Website Builder documentation master file, created by
    sphinx-quickstart on Thu May 10 18:31:14 2018.
    You can adapt this file completely to your liking, but it should at least
@@ -113,6 +114,8 @@ User's Guide
 .. toctree::
    :maxdepth: 2
 
+   concepts/concepts
+   tasks/tasks
    jamla/jamla
    subscribie/subscribie
    themes/themes
