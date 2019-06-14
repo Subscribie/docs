@@ -25,6 +25,8 @@ A simple workflow:
 2. Customer enters contact info
 3. Take one-off/monthly payments (or both)
 
+.. _quickstart:
+
 -----------------------
 Quickstart: Run locally
 -----------------------
