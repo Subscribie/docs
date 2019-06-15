@@ -27,8 +27,6 @@ the default theme entry::
   `string`, `mandatory`, `*default*: *./static*`
 
 
-.. note:: You may set the theme name to an absolute path. If you do set 
-          the theme name to an absolute path, be sure to *also* update the 
-          STATIC_FOLDER path environment variable in your .env file.
+.. seealso:: :ref:`create-a-theme`
 
 .. seealso:: :ref:`themes`
