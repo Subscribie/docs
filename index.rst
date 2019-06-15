@@ -46,7 +46,6 @@ User's Guide
    get-started/index
    concepts/concepts
    tasks/tasks
-   jamla/jamla
    subscribie/subscribie
    themes/themes
 

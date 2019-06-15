@@ -3,6 +3,9 @@
 Payment Providers
 =====================
 
+.. toctree::
+   :maxdepth: 2
+
 --------------------------------
 Example payment providers jamla
 --------------------------------

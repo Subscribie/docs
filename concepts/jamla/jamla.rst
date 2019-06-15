@@ -3,7 +3,6 @@
 Jamla
 ================
 
-----------------------------------------
 Just a Markup Language Application
 ----------------------------------------
 
@@ -19,7 +18,6 @@ website's:
 * Each products pricing rules
 * Settings for the application
 
------------------------
 Parts of a Jamla file
 -----------------------
 First read the complete example :ref:`jamla-latest`. Every part of a valid Jamla 

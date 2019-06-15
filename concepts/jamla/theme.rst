@@ -3,6 +3,9 @@
 Theme
 ===========
 
+.. toctree::
+   :maxdepth: 2
+
 A jamla theme entry
    Is simply the name of the theme you wish to use.
 

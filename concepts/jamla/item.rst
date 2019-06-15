@@ -3,6 +3,9 @@
 Item
 =============
 
+.. toctree::
+   :maxdepth: 2
+
 A Jamla item 
    Is an individual product or service. A valid 
    :ref:`jamla file<jamla-latest>` defines an `array` of products or 

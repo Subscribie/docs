@@ -3,6 +3,9 @@
 Company
 ================
 
+.. toctree::
+   :maxdepth: 2
+
 Company excerpt from :ref:`jamla-latest` :: 
  
     company:                                                                         
