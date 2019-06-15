@@ -3,6 +3,7 @@
 Concepts
 ===========
 
-- Jamla file
+This Concepts section helps you learn about the parts of a 
+Subscribie site, its components and how to develop with it.
 
-  - A yaml file which completely defines a subscription website
+- :ref:`jamla` - a yaml file which completely defines a subscription website

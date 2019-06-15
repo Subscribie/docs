@@ -3,6 +3,8 @@
 Tasks
 ===========
 
-- Installing :code:`subscribie` cli
+.. toctree::
+   :maxdepth: 2
 
-  - See See :ref:`quickstart` which shows how to install and use subscribie cli
+   tools/install-subscribiecli
+   run-subscribie-locally
