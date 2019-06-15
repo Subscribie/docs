@@ -8,3 +8,4 @@ Tasks
 
    tools/install-subscribiecli
    run-subscribie-locally
+   create-a-theme

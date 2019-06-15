@@ -31,25 +31,28 @@ another theme.
 
 Static Assets
 **************
-Static assets must be placed in `subscribie/static` above the template folder:
+Static assets for a theme must be placed in the 
+`<theme-folder>/theme-<theme-name>/static` folder.
+
+Every theme is stored in it's own folder named: :code:`theme-[theme-name]`.
+For example, the jesmond theme is indside the :code`'themes/theme-jesmond` 
+folder.
+
+- Static assets go in the folder below, in a folder called :code:`static`.
+- Template code goes into the `<theme-name>` folder below :code:`theme-[theme-name]`
 
 ::
 
-	subscribie
-	├── static
-	│   └── logo.svg
-	└── templates
-		└── jesmond
+  themes
+  |
+  ├── theme-jesmond
+      |
+      ├── jesmond
+      └── static
 
 Editing the theme
 ***********************
 It is not recommended to edit the theme directly because your changes would
-be overwitten when you update to the latest Jesmond theme. Instead you would
-create your own theme.
-
-Changing the theme
-***********************
-
-To change to a different theme, update the name of the :ref:`jamla-theme` in your Jamla file.  
-
+be overwitten when you update to the latest Jesmond theme. See
+:ref:`create-a-theme`.
 
