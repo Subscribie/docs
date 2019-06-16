@@ -25,6 +25,23 @@ python package manager :code:`pip` installed.
 
   - `Install Pip <https://pip.pypa.io/en/stable/installing/#installation>`_.
 
+.. note:: If you're on a Mac, make sure python3 (or python3.6, or python3.7)
+          is in your PATH. MacOS 10.14 and above defaults to zsh so you need
+          to edit your ~/.zshrc file to ensure python 3 (or aboveis in your 
+          path. For example, at the bottom of your :code:`~/.zshrc` file:
+
+          .. code-block:: shell
+
+             nano ~/.zshrc
+             # Add python 3.7 to PATH:
+             export PATH=$PATH:/Users/karabeen/Library/Python/3.7/bin
+          
+          Change accordingly to the python version you have installed on your
+          mac (you must have at least python version 3). For bash, edit your
+          :code:`~/.bashrc` file with the same edit at the bottom.
+
+Install Subscribie CLI
+-----------------------
 
 .. code-block:: shell
   :name: Install subscribiecli
