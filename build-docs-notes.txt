@@ -1,1 +1,2 @@
 sphinx-build -b html ./ out/
+#poor mans live reload:  while [ true ]; do sleep 5; sphinx-build ./ out/; done
