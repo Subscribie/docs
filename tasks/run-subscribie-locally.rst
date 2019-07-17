@@ -7,7 +7,7 @@ Clone the Subscribie codebase
 `````````````````````````
 .. code-block:: shell
   
-  git clone git@github.com:Subscribie/subscribie.git
+  git clone https://github.com/Subscribie/subscribie.git
   cd subscribie
   pip3.6 install --user -r requirements.txt
   subscribie init # Sets up initial project
