@@ -4,9 +4,9 @@ Install Subscribie CLI
 ======================
 
 The Subscribie command-line tool, allows you to run commands 
-against a local subscribie site. It allows you you:
+against a local subscribie site. It allows you to:
 
-- Initalise a new Subscribie project
+- Initialise a new Subscribie project
 - Run a subscribie site locally 
 - Change subscribie config settings
 - Create new themes using existing themes as a starting point
@@ -27,7 +27,7 @@ python package manager :code:`pip` installed.
 
 .. note:: If you're on a Mac, make sure python3 (or python3.6, or python3.7)
           is in your PATH. MacOS 10.14 and above defaults to zsh so you need
-          to edit your ~/.zshrc file to ensure python 3 (or aboveis in your 
+          to edit your ~/.zshrc file to ensure python 3 (or above) is in your 
           path. For example, at the bottom of your :code:`~/.zshrc` file:
 
           .. code-block:: shell
@@ -64,8 +64,8 @@ output similar to:
     --help  Show this message and exit.
 
   Commands:
-    init       Initalise a new subscribie project
-    initdb     Initalise the database
+    init       Initialise a new subscribie project
+    initdb     Initialise the database
     migrate    Run latest migrations
     newtheme   Create new theme
     run        Run subscribie
@@ -88,8 +88,8 @@ The most useful two commands are:
     --help  Show this message and exit.
 
   Commands:
-    init       Initalise a new subscribie project
-    initdb     Initalise the database
+    init       Initialise a new subscribie project
+    initdb     Initialise the database
     migrate    Run latest migrations
     newtheme   Create new theme
     run        Run subscribie
