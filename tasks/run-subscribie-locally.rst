@@ -13,9 +13,13 @@ Clone the Subscribie codebase
   subscribie init # Sets up initial project
   subscribie migrate # Migrates database
 
-Set theme path directory
-``````````````````````````
-Now set the full path (with terminating slash) to the directory
+Set theme path directory (optional)
+````````````````````````````````````
+This is optional. By default Subscribie will load the
+default theme, Jesmond.
+
+To change which path themes are loaded from, set the 
+full path (with terminating slash) to the directory
 of the themes directory. By default this is a subdirectory of the
 subscribie folder, but you can place the themes folder anywhere 
 you line on your filesystem.
