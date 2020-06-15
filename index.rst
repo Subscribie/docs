@@ -30,12 +30,19 @@ A simple workflow:
 Quickstart: Run locally
 -----------------------
 
-Before you begin
-`````````````````
-Make sure you have the :code:`subscribie` cli tool installed:
+.. code-block:: shell
 
-- :ref:`install-subscribiecli`
+  git clone https://github.com/Subscribie/subscribie.git                         
+  cd subscribie                                                                  
+  cp .env.example .env # Copy default .env settings (look at it)                 
+  virtualenv -p python3 venv # Create a python3.x virtualenv                     
+  . venv/bin/activate # Activate the virtualenv                                  
+  pip install -r requirements.txt # Install requirements                         
+  export FLASK_APP=subscribie                                                    
+  export FLASK_DEBUG=1                                                           
+  flask run # Run the app 
 
+  Now visit http://127.0.0.1:5000 
 
 User's Guide
 ==================

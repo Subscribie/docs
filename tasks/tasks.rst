@@ -7,6 +7,5 @@ Tasks
    :maxdepth: 2
 
    tools/install-subscribiecli
-   run-subscribie-locally
    create-a-theme
    create-a-module

@@ -14,7 +14,6 @@ Before you begin
 Make sure you have already:
 
 - :ref:`install-subscribiecli`
-- :ref:`run-subscribie-website-locally`
 
 Create a new theme using Subscribie cli
 ----------------------------------------
