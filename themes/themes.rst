@@ -3,13 +3,7 @@
 Themes
 ==========
 
-Subscribie comes with an excellent default theme called `Jesmond`_. Every 
-theme gets passed a `Jamla` object, which gives you access to all information 
-in your :ref:`jamla<jamla-latest>` file.
-
-.. warning::
-  Never output sensitive information from your Jamla file to your
-  visitors. 
+Subscribie comes with an excellent default theme called `Jesmond`_. 
 
 ---------------
 Getting Started
@@ -26,8 +20,7 @@ get all the benefits of modern experiences usually only found on larger
 sites.
 
 By default you have the `jesmond` theme installed, but of course you can 
-create your own by editing your jamla :ref:`jamla-theme` setting to point to
-another theme.
+create your own.
 
 Static Assets
 **************

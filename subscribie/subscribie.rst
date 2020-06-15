@@ -4,12 +4,11 @@ Subscribie
 ===========
 
 
-Subscribie is the main module which reads your :ref:`jamla` file.
+Subscribie is the main module.
 It performs the following actions:
 
-- Reads your :ref:`jamla` file
 - Loads your :ref:`theme<themes>`
-- Loads any modules you have defined (most have none)
+- Loads any modules you have defined 
 - Starts Flask on localhost, listening on port 5000 by default
 
 
@@ -40,7 +39,6 @@ Example:
     a dictionary
 
   Options:
-    --JAMLA_PATH TEXT               full path to                jamla.yaml
     --SECRET_KEY TEXT               Random key for flask                sessions
     --TEMPLATE_FOLDER TEXT          Path to theme                folder
     --STATIC_FOLDER TEXT            Path to static assets                folder

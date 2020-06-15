@@ -40,16 +40,15 @@ Find your new theme in your themes directory.
 If you want to use another theme as a base, look at the themes
 already in the Subscribie github organisation: https://github.com/Subscribie?utf8=%E2%9C%93&q=theme-&type=&language=
 
-3. Edit your :code:`jamla.yaml` file to the new theme name
+3. Edit your :code:`.env` file to the new theme name
 ```````````````````````````````````````````````````````````
 
 Take out the existing theme name and src for jesmond, and replace
 it with your own, removing the src attribute. For example:
 
 .. code-block:: shell
-
-  theme:
-      name: mynewtheme
+  
+  THEME_NAME=mytheme
 
 4. Run your new theme
 ``````````````````````
@@ -63,7 +62,7 @@ see your theme name has changed to :code:`mynewtheme`:
   subscribie run
   ...
   ...
-  Theme name is: mynewtheme
+  Theme name is: mytheme
   ...
 
 Make some changes to your theme, and an reload. It will look 
