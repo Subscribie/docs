@@ -39,7 +39,8 @@ Quickstart: Run locally
   . venv/bin/activate # Activate the virtualenv                                  
   pip install -r requirements.txt # Install requirements                         
   export FLASK_APP=subscribie                                                    
-  export FLASK_DEBUG=1                                                           
+  export FLASK_DEBUG=1
+  flask initdb # (optional) initalize the database with dummy data
   flask run # Run the app 
 
   Now visit http://127.0.0.1:5000 
